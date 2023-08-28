@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "verify user can login successfully with valid credentials",
+        "description": "",
+        "id": "this-feature-is-for-log-in-functionality;verify-user-can-login-successfully-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4222105269,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Lauch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 7
+                }
+              ],
+              "location": "Login_Project1.lauch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190802889,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click login link",
+            "match": {
+              "location": "Login_Project1.click_login_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9364922533,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter username,password and click login button",
+            "match": {
+              "location": "Login_Project1.enter_username_password_and_click_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5661839053,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify user can successfully log in",
+            "match": {
+              "location": "Login_Project1.verify_user_can_successfully_log_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Login1"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is for log in functionality",
+    "description": "",
+    "id": "this-feature-is-for-log-in-functionality",
+    "keyword": "Feature",
+    "uri": "Login_Project1.feature"
+  }
+]
