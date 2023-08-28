@@ -47,6 +47,26 @@ public class HomePageActionProject1 extends BaseClassProject1 {
 		homePageLoacatorProject1.loginButton.click();
 	}
 	
+	public void contactLink () {
+		
+		homePageLoacatorProject1.contactLink.click();
+		
+		}
 	
+	public void enterInfo(String x, String y, String z) throws Exception {
+		
+		Thread.sleep(5000);
+		
+		homePageLoacatorProject1.email.sendKeys(x);
+		Thread.sleep(2000);
+		homePageLoacatorProject1.name.sendKeys(y);
+		Thread.sleep(2000);
+		homePageLoacatorProject1.message.sendKeys(z);
+		Thread.sleep(2000);
+		homePageLoacatorProject1.sendmsg.click();
+		
+	}
 
+	
+	
 }
