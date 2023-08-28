@@ -46,4 +46,31 @@ public class HomePageLoacatorProject1 extends BaseClassProject1{
 	@FindBy (xpath="//*[@id=\"logInModal\"]/div/div/div[3]/button[2]")
 	
 	public WebElement loginButton;
+	
+	
+	@FindBy (xpath="//*[@id=\"navbarExample\"]/ul/li[2]/a")
+	
+	public WebElement contactLink;
+	
+	
+	@FindBy (id="recipient-email")
+	
+	public WebElement email;
+	
+	
+	@FindBy (id="recipient-name")
+	
+	public WebElement name;
+	
+	
+	@FindBy (id="message-text")
+	
+	public WebElement message;
+	
+	
+	@FindBy (xpath ="//*[@id=\"exampleModal\"]/div/div/div[3]/button[2]")
+	
+	public WebElement sendmsg;
+	
+	
 }
