@@ -1,5 +1,7 @@
 package com.project1.PageAction;
 
+import org.openqa.selenium.JavascriptExecutor;
+
 import com.project1.PageLocator.HomePageLoacatorProject1;
 import com.project1.PageLocator.ProfilePageLocatorProject1;
 
@@ -67,6 +69,16 @@ public class HomePageActionProject1 extends BaseClassProject1 {
 		
 	}
 
-	
+	public void clicksamsung7Link() throws Exception {
+		
+		Thread.sleep(3000);
+		
+		((JavascriptExecutor)driver).executeScript("scroll(0,800)");
+		
+		Thread.sleep(3000);
+		
+		homePageLoacatorProject1.samsung7.click();
+		
+			}
 	
 }
