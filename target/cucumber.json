@@ -4,15 +4,15 @@
     "elements": [
       {
         "line": 5,
-        "name": "verify user can send msg through contact functionality",
+        "name": "verify user can successfully add item in cart",
         "description": "",
-        "id": "this-feature-is-for-contact-functionality;verify-user-can-send-msg-through-contact-functionality",
+        "id": "this-feature-is-for-cart-functionality;verify-user-can-successfully-add-item-in-cart",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5470538032,
+              "duration": 1551272051,
               "status": "passed"
             },
             "line": 7,
@@ -30,37 +30,43 @@
           },
           {
             "result": {
-              "duration": 2076323813,
+              "duration": 14503616311,
               "status": "passed"
             },
             "line": 8,
-            "name": "click contactLink",
+            "name": "click samsung7 and click addtocart button",
             "match": {
-              "location": "Contact_Project1.click_contactLink()"
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 13
+                }
+              ],
+              "location": "Cart_Project1.click_samsung_and_click_addtocart_button(int)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 15889213883,
+              "duration": 6036167622,
               "status": "passed"
             },
             "line": 9,
-            "name": "enter email,name and msg and click send msg button",
+            "name": "click cart link",
             "match": {
-              "location": "Contact_Project1.enter_email_name_and_msg_and_click_send_msg_button()"
+              "location": "Cart_Project1.click_cart_link()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 64041,
+              "duration": 7977638728,
               "status": "passed"
             },
             "line": 10,
-            "name": "verify received msg",
+            "name": "verify item added in the cart",
             "match": {
-              "location": "Contact_Project1.verify_received_msg()"
+              "location": "Cart_Project1.verify_item_added_in_the_cart()"
             },
             "keyword": "Then "
           }
@@ -68,15 +74,15 @@
         "tags": [
           {
             "line": 3,
-            "name": "@Contact1"
+            "name": "@Cart1"
           }
         ]
       }
     ],
-    "name": "This feature is for contact functionality",
+    "name": "this feature is for cart functionality",
     "description": "",
-    "id": "this-feature-is-for-contact-functionality",
+    "id": "this-feature-is-for-cart-functionality",
     "keyword": "Feature",
-    "uri": "Contact_Project1.feature"
+    "uri": "Cart_Project1.feature"
   }
 ]

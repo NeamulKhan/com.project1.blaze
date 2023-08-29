@@ -72,5 +72,9 @@ public class HomePageLoacatorProject1 extends BaseClassProject1{
 	
 	public WebElement sendmsg;
 	
+	@FindBy(xpath="//*[@id=\"tbodyid\"]/div[4]/div/div/h4/a")
+	
+	public WebElement samsung7;
+	
 	
 }
